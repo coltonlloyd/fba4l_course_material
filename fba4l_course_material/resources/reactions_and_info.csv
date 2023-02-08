@@ -1,0 +1,16 @@
+,lower_bound,name,stoichiometry,upper_bound
+ATPPRT,0.0,ATP phosphoribosyltransferase,"{'atp_c': -1.0, 'ppi_c': 1.0, 'prbatp_c': 1.0, 'prpp_c': -1.0}",1000.0
+HISTD,0.0,histidinol dehydrogenase,"{'h2o_c': -1.0, 'h_c': 3.0, 'his__L_c': 1.0, 'histd_c': -1.0, 'nad_c': -2.0, 'nadh_c': 2.0}",1000.0
+HISTP,0.0,histidinol-phosphatase,"{'h2o_c': -1.0, 'hisp_c': -1.0, 'histd_c': 1.0, 'pi_c': 1.0}",1000.0
+HISabcpp,0.0,L-histidine transport via ABC system (periplasm),"{'adp_c': 1.0, 'atp_c': -1.0, 'h2o_c': -1.0, 'h_c': 1.0, 'his__L_c': 1.0, 'his__L_p': -1.0, 'pi_c': 1.0}",1000.0
+HIStex,-1000.0,L-histidine transport via diffusion (extracellular to periplasm),"{'his__L_e': -1.0, 'his__L_p': 1.0}",1000.0
+HSTPT,0.0,histidinol-phosphate transaminase,"{'akg_c': 1.0, 'glu__L_c': -1.0, 'hisp_c': 1.0, 'imacp_c': -1.0}",1000.0
+IG3PS,0.0,Imidazole-glycerol-3-phosphate synthase,"{'aicar_c': 1.0, 'eig3p_c': 1.0, 'gln__L_c': -1.0, 'glu__L_c': 1.0, 'h_c': 1.0, 'prlp_c': -1.0}",1000.0
+IGPDH,0.0,imidazoleglycerol-phosphate dehydratase,"{'eig3p_c': -1.0, 'h2o_c': 1.0, 'imacp_c': 1.0}",1000.0
+PRAMPC,0.0,phosphoribosyl-AMP cyclohydrolase,"{'h2o_c': -1.0, 'prbamp_c': -1.0, 'prfp_c': 1.0}",1000.0
+PRATPP,0.0,phosphoribosyl-ATP pyrophosphatase,"{'h2o_c': -1.0, 'h_c': 1.0, 'ppi_c': 1.0, 'prbamp_c': 1.0, 'prbatp_c': -1.0}",1000.0
+PRMICI,-1000.0,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase,"{'prfp_c': -1.0, 'prlp_c': 1.0}",1000.0
+PRPPS,-1000.0,phosphoribosylpyrophosphate synthetase,"{'amp_c': 1.0, 'atp_c': -1.0, 'h_c': 1.0, 'prpp_c': 1.0, 'r5p_c': -1.0}",1000.0
+RBK,0.0,ribokinase,"{'adp_c': 1.0, 'atp_c': -1.0, 'h_c': 1.0, 'r5p_c': 1.0, 'rib__D_c': -1.0}",1000.0
+RIBabcpp,0.0,D-ribose transport via ABC system (periplasm),"{'adp_c': 1.0, 'atp_c': -1.0, 'h2o_c': -1.0, 'h_c': 1.0, 'pi_c': 1.0, 'rib__D_c': 1.0, 'rib__D_p': -1.0}",1000.0
+RIBtex,-1000.0,ribose transport via diffusion (extracellular to periplasm),"{'rib__D_e': -1.0, 'rib__D_p': 1.0}",1000.0
