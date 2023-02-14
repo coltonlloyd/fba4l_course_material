@@ -6,7 +6,7 @@ setup(name="fba4l_course_material",
       author="Colton Lloyd",
       url="https://github.com/coltonlloyd/fba4l_course_material",
       packages=find_packages(),
-      install_requires=['cobra', 'escher']
+      install_requires=['cobra']
                        
       )
  
